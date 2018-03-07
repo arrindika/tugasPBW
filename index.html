@@ -725,7 +725,16 @@ seconds = parseInt(seconds_left % 60);
                         <p><span>Sabtu</span> Libur</p>
                         <p><span>Minggu</span> Libur</p>
                       </address>
-                    </div>
+                      </div>
+                      <div id="form-messages"></div>
+                    <div class="mu-contact-widget">
+                        <h3>Poster Teknologi Informasi ITS</h3>      
+                      <form id="ajax-contact" method="post" action="sendposter.php" class="mu-contact-form">
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                      </div>                                        
+                      <button type="submit" class="mu-send-btn">Send Poster</button>   
+                    </form>
                   </div>
                 </div>
 
