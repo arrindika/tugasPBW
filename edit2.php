@@ -7,7 +7,7 @@ if(isset($_POST['update']))
 {	
 	$id = $_POST['id'];
 	
-	$name=$_POST['nrp'];
+	$nrp=$_POST['nrp'];
 	$nama=$_POST['nama'];
 	$asal=$_POST['asal'];
 		
@@ -49,7 +49,7 @@ while($user_data = mysqli_fetch_array($result))
 				<td><input type="text" name="nrp" value=<?php echo $nrp;?>></td>
 			</tr>
 			<tr> 
-				<td>Email</td>
+				<td>Nama</td>
 				<td><input type="text" name="nama" value=<?php echo $nama;?>></td>
 			</tr>
 			<tr> 
