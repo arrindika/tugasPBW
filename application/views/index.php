@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>Teknologi Informasi | Home</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/lambang-its-color-std.png" type="image/x-icon">
+
+    <!-- Font awesome -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">   
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">    
+    <!-- Date Picker -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-datepicker.css">   
+     <!-- Gallery Lightbox -->
+    <link href="assets/css/magnific-popup.css" rel="stylesheet"> 
+    <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">     
+
+    <!-- Main style sheet -->
+    <link href="assets/css/style.css" rel="stylesheet">    
+
+   
+    <!-- Google Fonts -->
+
+    <!-- Prata for body  -->
+    <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
+    <!-- Tangerine for small title -->
+    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>   
+    <!-- Open Sans for title -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+
+  <!--START SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#">
+      <i class="fa fa-angle-up"></i>
+    </a>
+  <!-- END SCROLL TOP BUTTON -->
+
+  <!-- Start header section -->
+  <header id="mu-header">  
+    <nav class="navbar navbar-default mu-main-navbar" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <!-- LOGO -->       
+
+           <!--  Text based logo  -->
+          <a class="navbar-brand" href="index.php"><img alt="img" src="assets/img/logo.png" style="width: 150%%;height: 150%"></a> 
+
+		      <!--  Image based logo  -->
+          <!-- <a class="navbar-brand" href="index.php"><img src="assets/img/logo.png" alt="Logo img"></a>  -->
+         
+
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
+            <li><a href="index.php">HOME</a></li>
+            <li><a href="#mu-about-us">TENTANG</a></li>                       
+            <li><a href="#mu-restaurant-menu">FASILITAS</a></li>  
+            <li><a href="#mu-gallery">JALUR MASUK</a></li>
+            <li><a href="#mu-reservation">PROFIL LULUSAN</a></li>                       
+            <li><a href="#mu-client-testimonial">TESTIMONI</a></li> 
+            <li><a href="#mu-contact">CONTACT</a></li> 
+            <li><a href="<?php echo site_url('db'); ?>">DATABASE</a></li> 
+          </ul>                            
+        </div><!--/.nav-collapse -->       
+      </div>          
+    </nav> 
+  </header>
+  <!-- End header section -->
+ 
+
+  <!-- Start slider  -->
+  <section id="mu-slider">
+    <div class="mu-slider-area"> 
+
+      <!-- Top slider -->
+      <div class="mu-top-slider">
+
+        <!-- Top slider single slide -->
+        <div class="mu-top-slider-single"> 
+          <img src="assets/img/bg1.png" alt="img">
+          <!-- Top slider content -->
+          <div class="mu-top-slider-content">
+            <span class="mu-slider-small-title">Selamat Datang</span>
+            <h2 class="mu-slider-title">Di Departemen Teknologi Informasi</h2>
+            <p>Fakultas Teknologi Informasi</p>   
+            <p>Institut Teknologi Sepuluh Nopember</p> 
+            <a href="#mu-contact" class="mu-readmore-btn mu-reservation-btn">CONTACT US</a>
+          </div>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide -->    
+
+         <!-- Top slider single slide -->
+        <div class="mu-top-slider-single">
+          <img src="assets/img/bg2.png" alt="img">
+          <!-- Top slider content -->
+          <div class="mu-top-slider-content">
+            <span class="mu-slider-small-title">Telah dibuka</span>
+            <h2 class="mu-slider-title">Departemen Teknologi Informasi</h2>
+            <p>Terdapat 3 jalur masuk ke Departemen Teknologi Informasi</p>           
+           <a href="#mu-gallery" class="mu-readmore-btn mu-reservation-btn">LEBIH LANJUT</a>
+          </div>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide --> 
+
+        <!-- Top slider single slide -->
+        <div class="mu-top-slider-single">
+          <img src="assets/img/bg3.png" alt="img">
+          <!-- Top slider content -->
+          <div class="mu-top-slider-content">
+            <span class="mu-slider-small-title">Apa Kata Mereka?</span>
+            <h2 class="mu-slider-title">Pendapat Para Ahli</h2>
+            <p>Para Ahli memberi opini mereka mengenai Departemen Teknologi Informasi</p>           
+            <a href="#mu-client-testimonial" class="mu-readmore-btn mu-reservation-btn">LEBIH LANJUT</a>
+          </div>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide -->   
+
+      </div>
+    </div>
+  </section>
+  <!-- End slider  -->
+
+  <!-- Start About us -->
+  <section id="mu-about-us">
+     <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-about-us-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Tentang Kami</span>
+              <h2>Departemen Teknologi Informasi</h2>
+            </div>
+              <p style="text-align:justify">Departemen Teknologi Informasi hadir untuk mendukung dua dari lima bidang unggulan ITS yaitu ICT dan robotika , serta pemukiman.  Departemen ini memberikan kontribusi dalam pengembangan ilmu pengetahuan dan teknologi untuk kesejahteraan masyarakat melalui kegiatan pendidikan, penelitian, pengabdian kepada masyarakat, dan manajemen berbasis Teknologi Informasi.</p>
+              <p style="text-align:justify">Dalam menjalani perkuliahan, mahasiswa akan dibimbing oleh pengajar yang berkualitas. Jumlah tenaga pengajar di departemen teknologi informasi ini adalah  6 orang dosen yang memiliki kualifikasi 2 orang berpendidikan S3 dan 4 orang berpendidikan S2. Metode pengajaran yang diterapkan di departemen ini terus dikembangkan seperti Pekerti, Applied Approach (AA), English as Medium Instruction (EMI), dan Problem Based Learning (PBL). Kurikulum yang disusun selalu diperbaharui dengan mengacu kepada kurikulum terkini di bidang Teknologi Informasi.</p>
+              <p style="text-align:justify">Pembelajaran di Departemen Teknologi Informasi menerapkan program Student-Centered Learning yang menitikberatkan keaktifan mahasiswa melalui metode diskusi kelompok, presentasi kelompok, tugas individu dan tugas kelompok. Mahasiswa akan diberikan pembelajaran konsep dasar computing dan matematika, prinsip teknologi informasi, standar dalam teknologi informasi, proses analisis, perencanaan , pengelolaan dan evaluasi terkait sumber daya informasi, keterampilan umum dan khusus. Pembelajaran mahasiswa dilengkapi dengan sarana ruang kelas, perpustakaan, ruang penunjang dan laboratorium.</p>
+              <p style="text-align:justify">Lapangan kerja bagi lulusan teknologi informasi yaitu bidang spesialis keamanan siber, analis keamanan aplikasi, spesialis integrasi sistem, pengembang layanan awan dan spesialis IoT (Internet Of Things). Jenis pekerjaan bidang teknologi informasi antara lain arsitektur IT (layanan awan), help desk IT support, network administration & systems administration, network security, database development & database administration, web development & web programming, computer operator, engineering data network, administrator database, keamanan Infrastruktur dan perangkat lunak, teknisi network & sistem.</p>
+            <div class="row">
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <h1></h1>
+      <p></p>
+      <h1></h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-about-us-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Visi dan Misi</span>
+              <h2>Departemen Teknologi Informasi</h2>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+               <div class="mu-about-us-left">     
+                <img src="assets/img/animated-light-bulb-gif-29.gif" alt="img">           
+                </div>
+              </div>
+              <div class="col-md-6">
+                 <div class="mu-about-us-right">
+                <h1></h1>
+                 <p>VISI</p>      
+                     <p style="text-align:justify;">Menjadi Program Studi Teknologi Informasi yang unggul dalam bidang keamanan siber dan Teknologi berbasis Internet <i>(Internet of Things)</i> untuk pembangunan Smart City secara berkelanjutan hingga tahun 2022</p>  
+                 <p>MISI</p>  
+                  <ol style="text-align:justify">
+                    <li>Menyelenggaralak pendidikan dan pengajaran Teknologi Informasi dengan menggunakan kurikulum yang adaptif, berorientasi ke masa depan dan didukung SDM yang berkualitas serta fasilitas yang memadai.</li>
+                    <li>Melaksanakan penelitian yang bermutu di bidang Keamanan Siber dan <i>Internet of Thing</i> untuk teknologi <i>Smart City</i>.</li>
+                    <li>Menjalin kemitraan dengan instansi dalam maupun luar negeri.</li>                    
+                    <li>Menyelenggarakan pengabdian kepada masyarakat berupa pelatihan, penyuluhan, penerapan hasil penelitian untuk pengembangan potensi dan pemberdayaan masyarakat daerah.</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <h1></h1>
+      <p></p>
+      <h1></h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-about-us-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Alasan Memilih</span>
+              <h2>Departemen Teknologi Informasi</h2>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+               <div class="mu-about-us-left">       
+                  <ol style="text-align:justify">
+                    <li>Saat ini banyak terdapat hacker di dunia siber, oleh karena itu diperluhkan ahli keamanan siber dan aplikasi untuk mengurangi penipuan<i>(fraud)</i>.</li>
+                    <li>Program Studi Teknologi Informasi dapat mencetak lulusan yang mempuyai keahlian di bidang layanan awan, yang berkontribusi dalam meningkatkan kuantitas dan kualitas SDM, sehingga dapat meningkatkan efisiensi operasional organisasi.</li>
+                    <li>Memiliki kemampuan untuk menghasilkan SDM yang ahli dalam bidang integrasi sistem sebagai solusi untuk mendukung penanganan aplikasi-aplikasi di instansi pemerintahan (E-Gov).</li>                   
+                    <li>Memfasilitasi otomasi proses bisnis di organisasi untuk menghadapi perkembangan teknologi internet yang pesat dalam rangka mengukung perkembangan Teknologi <i>Smart City</i>.</li>
+                  </ol>  
+                </div>
+              </div>
+              <div class="col-md-6">
+                 <div class="mu-about-us-right">
+                    <center><img src="assets/img/download.jpg" alt="img" >     </center> 
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About us -->
+      
+  <!-- Start Counter Section -->
+  <section id="mu-counter">
+    <div class="mu-counter-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mu-counter-area">
+
+              <div class="mu-title">
+              <span class="mu-subtitle">Sudah Siapkah Anda Menjadi Bagian dari Departemen Teknologi Informasi?</span>
+            </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Counter Section --> 
+
+  <!-- Start Restaurant Menu -->
+  <section id="mu-restaurant-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-restaurant-menu-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Fasilitas</span>
+              <h2>Departemen Teknologi Informasi</h2>
+            </div>
+            
+            <div class="mu-restaurant-menu-content">
+              <ul class="nav nav-tabs mu-restaurant-menu">
+                <li class="active"><a href="#breakfast" data-toggle="tab">Laboratorium</a></li>
+                <li><a href="#meals" data-toggle="tab">Ruang Baca</a></li>
+                <li><a href="#snacks" data-toggle="tab">Ruang Kelas</a></li>
+              </ul>
+
+              <!-- Tab panes -->
+              <div class="tab-content">
+                  
+                <div class="tab-pane fade in active" id="breakfast">
+                  <div class="mu-tab-content-area">
+                      <center><p  >Terdapat 2 laboratorium yang seluruh komputer telah dilengkapi oleh perangkat lunak </p>
+                      <p  >yang dapat digunakan untuk mendukung kegiatan praktikum maupun kegiatan akademis lainnya.</p>
+                      </center>
+                    <div class="row">
+              <div class="col-md-6">
+               <div class="mu-about-us-left">   
+                  <center><img src="assets/img/cyb.png" alt="img" >  
+                      <h1>  </h1>
+                   <h2>Laboratorium Keamanan Siber</h2></center> 
+                </div>
+              </div>
+              <div class="col-md-6">
+                 <div class="mu-about-us-right">
+                    <center><img src="assets/img/smc.png" alt="img" >  
+                        <h1>  </h1>
+                 <h2>Laboratorium Teknologi Smart City</h2></center>
+                </div>
+              </div>
+            </div>
+                      
+                 </div>
+                </div>
+
+                <div class="tab-pane fade" id="meals">
+                  <div class="mu-tab-content-area">
+                      <center><p>Ruang baca memiliki berbagai macam koleksi mulai dari fiksi hingga materi perkuliahan, </p>
+                      <p  >dari bahan cetak hingga koleksi digital seperti CD-ROM, CD, VCD dan DVD. Selain itu juga </p>
+                          <p>menyediakan publikasi serial harian dan bulanan seperti surat kabar dan majalah.</p>
+                          <h1></h1>
+                          <img src="assets/img/images.jpg" alt="img" >
+                      </center>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="snacks">
+                  <div class="mu-tab-content-area">
+                      <center><p>Setiap ruang kelas dilengkapi dengan pendingin ruangan dan LCD serta akses internet</p>
+                      <p  > gratis yang dapat mendukung kegiatan akademis mahasiswa.</p>
+                          
+                          <h1></h1>
+                          <img src="assets/img/ee.jpg" alt="img" >
+                      </center>
+                    </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Restaurant Menu -->
+
+      <!-- Start Gallery -->
+  <section id="mu-gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-gallery-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Jalur Masuk</span>
+              <h2>Departemen Teknologi Informasi</h2>
+            </div>
+
+            <div class="mu-gallery-content">
+            
+              <!-- Start gallery image -->
+              <div class="mu-gallery-body">
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">
+                    <div class="mu-single-gallery-item">
+	                    <figure class="mu-single-gallery-img">
+	                      <a href="http://snmptn.ac.id/">
+                          <center><img alt="img" src="assets/img/gallery/snmptn-PNG.png"></center>
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/teks.png" alt="plus icon img">
+                          </div> 
+                        </a>
+	                    </figure>            
+                  	</div>
+                </div>
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">
+                  	 <div class="mu-single-gallery-item">
+                        <figure class="mu-single-gallery-img">
+                          <a href="https://sbmptn.ac.id/">
+                            <center><img alt="img" src="assets/img/gallery/logo-sbmptn.png"></center>
+                             <div class="mu-single-gallery-info">
+                                <img class="mu-view-btn" src="assets/img/teks.png" alt="plus icon img">
+                            </div> 
+                          </a>
+                        </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	 <div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a href="https://smits.its.ac.id/">
+                          <center><img alt="img" src="assets/img/gallery/pkm.png"></center>
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/teks.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->
+                  
+                  
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Gallery -->
+<style scoped="scoped" type="text/css">
+#countdownpenaindigo {background:white;color:blue;font-family:Oswald, Arial, Sans-serif;font-size:20px;text-transform:uppercase;text-align:center;padding:10px 0;font-weight:normal;}
+.teks {color:black}
+</style>
+<div id="countdownpenaindigo">
+<span id="countdown"></span>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+// set the date we're counting down to
+var target_date = new Date("May 8, 2018").getTime();
+// variables for time units
+var days, hours, minutes, seconds;
+// get tag element
+var countdown = document.getElementById("countdown");
+// update the tag with id "countdown" every 1 second
+setInterval(function () {
+// find the amount of "seconds" between now and target
+var current_date = new Date().getTime();
+var seconds_left = (target_date - current_date) / 1000;
+// do some time calculations
+days = parseInt(seconds_left / 86400);
+seconds_left = seconds_left % 86400;
+hours = parseInt(seconds_left / 3600);
+seconds_left = seconds_left % 3600;
+minutes = parseInt(seconds_left / 60);
+seconds = parseInt(seconds_left % 60);
+// format countdown string + set tag value
+  countdown.innerHTML = days + " <span class='teks'>hari</span> " + hours + " <span class='teks'>jam</span> "
+  + minutes + " <span class='teks'>menit</span> " + seconds + " <span class='teks'>detik <br/>menuju SBMPTN</span> 2018";
+}, 1000);
+//]]>
+</script>
+  <!-- Start Reservation section -->
+  <section id="mu-reservation">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-reservation-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Profil Lulusan</span>
+              <h2>Departemen Teknologi Informasi</h2>
+            </div>
+
+           <div class="mu-tab-content-area">
+                    <div class="row">
+
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/1.png" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                    
+                                    <span class="mu-menu-price"><h3> </h3><h2>Spesialis Keamanan Siber</h2>
+                                    <h5><i>(Cyber Security Specialist)</i></h5></span>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/2.png" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <span class="mu-menu-price"><h3> </h3><h2>Spesialis Internet of Things</h2>
+                                    <h5><i>(IoT Spesialist)</i></h5></span>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/3.png" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <span class="mu-menu-price"><h3> </h3><h2>Analis Keamanan Aplikasi</h2>
+                                    <h5><i>(Application Security Analyst)</i></h5></span>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+
+                     <div class="col-md-6">
+                       <div class="mu-tab-content-right">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/4.png" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <span class="mu-menu-price"><h2>Pengembang Layanan Awan</h2>
+                                    <h5><i>(Cloud Service Developer)</i></h5></span>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/5.png" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <span class="mu-menu-price"><h3> </h3><h2>Spesialis Integrasi Sistem</h2>
+                                    <h5><i>(System Integration Specialist)</i></h5></span>
+                                </div>
+                              </div>
+                            
+                          </ul>   
+                       </div>
+                     </div>
+
+                   </div>
+                 </div>
+              
+               <div class="mu-title">
+              
+              <h2>Peluang Kerja</h2>
+            </div>
+              <font color="white">
+              <ol style="text-align:justify">
+                    <li>Komputasi Awan dan Komputasi Terdistribusi <i>(Cloud and Distributed Computing)</i></li>
+                    <li>Arsitektur Web dan Pengembangan Framework <i>(Web Architecture and Development Framework)</i></li>
+                    <li>Integrasi Perangkat Lunak dan Middleware <i>(Middleware and Integration Software)</i></li>                    
+                    <li>Rancangan Antarmuka Penguna <i>(User Interface Design)</i></li>
+                    <li>Keamanan Informasi dan Jaringan <i>(Network and Information Security)</i></li>
+                    <li>Manajemen Penyimpanan Data <i>(Storage Systems and Management)</i></li>
+              </ol>
+              </font>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+  <!-- End Reservation section -->
+
+  
+  
+  <!-- Start Client Testimonial section -->
+  <section id="mu-client-testimonial">
+    <div class="mu-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mu-client-testimonial-area">
+
+              <div class="mu-title">
+                <span class="mu-subtitle">Testimoni</span>
+                <h2>Apa Kata Mereka?</h2>
+              </div>
+
+              <!-- testimonial content -->
+              <div class="mu-testimonial-content">
+                <!-- testimonial slider -->
+                <ul class="mu-testimonial-slider">
+                  <li>
+                    <div class="mu-testimonial-single">    
+                      
+                        <center><img src="assets\img\testimoni\wr'.png" alt="clients" class="selfshot" ></center>
+                      <div class="mu-testimonial-info">
+                        <p>Kegiatan siber nasional terutama pengamanan siber merupakan keharusan, keniscayaan..</p>
+                      </div>
+                      <div class="mu-testimonial-bio">
+                        <p>Wiranto - Menko Polhukam</p>                      
+                      </div>
+                    </div>
+                  </li>
+                    
+                  <li>
+                    <div class="mu-testimonial-single">    
+                      
+                        <center><img src="assets\img\testimoni\rc.png" alt="clients" class="selfshot" ></center>
+                      <div class="mu-testimonial-info">
+                        <p>Suatu hari nanti komputasi akan menjadi infrastruktur publik seperti listrik dan telepon</p>
+                      </div>
+                      <div class="mu-testimonial-bio">
+                        <p>John McCarthy - Pakar Komputasi MIT</p>                      
+                      </div>
+                    </div>
+                  </li>
+                    
+                  <li>
+                    <div class="mu-testimonial-single">    
+                      
+                        <center><img src="assets\img\testimoni\rs.png" alt="clients" class="selfshot" ></center>
+                      <div class="mu-testimonial-info">
+                        <p>Smart City menciptakan perubahan sistem lebih efektif dan efisien dalam lembaga pemerintahan</p>
+                      </div>
+                      <div class="mu-testimonial-bio">
+                        <p>Rusdiantara - Menkominfo</p>                      
+                      </div>
+                    </div>
+                  </li>
+                  
+                  <li>
+                    <div class="mu-testimonial-single">    
+                      
+                        <center><img src="assets\img\testimoni\sj.png" alt="clients" class="selfshot" ></center>
+                      <div class="mu-testimonial-info">
+                        <p>Jika kita tidak memecahkan masalah keamanan, maka orang-orang akan ragu</p>
+                      </div>
+                      <div class="mu-testimonial-bio">
+                        <p>Bill Gates - Microsoft</p>                      
+                      </div>
+                    </div>
+                  </li>
+                    
+                  <li>
+                    <div class="mu-testimonial-single">    
+                      
+                        <center><img src="assets\img\testimoni\ls.png" alt="clients" class="selfshot" ></center>
+                      <div class="mu-testimonial-info">
+                        <p>Sistem yang terintegrasi dalam suatu perusahaan dapat meningkatkan penghematan atau efisiensi</p>
+                      </div>
+                      <div class="mu-testimonial-bio">
+                        <p>Darwin Widjaja - Praktisi Teknologi Informasi</p>                      
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Client Testimonial section -->
+  
+
+  <!-- Start Contact section -->
+  <section id="mu-contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-contact-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Get In Touch</span>
+              <h2>Contact Us</h2>
+            </div>
+
+            <div class="mu-contact-content">
+              <div class="row">
+
+                <div class="col-md-6">
+                  <div class="mu-contact-left">
+                    <!-- Email message div -->
+                    <div id="form-messages"></div>
+                      
+                     <!-- Start contact form -->
+                    <form id="ajax-contact" method="post" action="mailer.php" class="mu-contact-form">
+                      <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                      </div>                      
+                      <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="message">Message</label>                        
+                        <textarea class="form-control" id="message" name="message"  cols="30" rows="10" placeholder="Type Your Message" required></textarea>
+                      </div>                      
+                      <button type="submit" class="mu-send-btn">Send Message</button>
+                        
+                    </form> 
+                    
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="mu-contact-right">
+                    <div class="mu-contact-widget">
+                      <h3>Office Address</h3>
+                      <p>Jalan Raya ITS, Keputih, Sukolilo, Keputih, Sukolilo, Kota SBY, Jawa Timur 60111</p>
+                      <address>
+                        <p><i class="fa fa-phone"></i> (031) 5994251</p>
+                        <p><i class="fa fa-envelope-o"></i>teknologi.informasi@its.ac.id</p>
+                        <p><i class="fa fa-map-marker"></i>Surabaya, Jawa Timur, Indonesia</p>
+                      </address>
+                    </div>
+                      
+                    <div class="mu-contact-widget">
+                      <h3>Open Hours</h3>                      
+                      <address>
+                        <p><span>Senin - Jumat</span> 08.00-16.00</p>
+                        <p><span>Sabtu</span> Libur</p>
+                        <p><span>Minggu</span> Libur</p>
+                      </address>
+                      </div>
+                      <div id="form-messages"></div>
+                    <div class="mu-contact-widget">
+                        <h3>Poster Teknologi Informasi ITS</h3>      
+                      <form id="ajax-contact" method="post" action="sendposter.php" class="mu-contact-form">
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                      </div>                                        
+                      <button type="submit" class="mu-send-btn">Send Poster</button>   
+                    </form>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact section -->
+
+  <!-- Start Map section -->
+  <section id="mu-map">
+    <iframe src=
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.662365446152!2d112.790795!3d-7.279204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa16b145e469%3A0x83df57e6a93ef2c2!2sJurusan+Sistem+Informasi+ITS!5e0!3m2!1sen!2sid!4v1429068412402"  width="100%" height="100%" frameborder="0"allowfullscreen></iframe>
+  </section>
+  <!-- End Map section -->
+
+  <!-- Start Footer -->
+  <footer id="mu-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        <div class="mu-footer-area">
+           <div class="mu-footer-social">
+            <a href="#"><span class="fa fa-facebook"></span></a>
+            <a href="#"><span class="fa fa-twitter"></span></a>
+            <a href="#"><span class="fa fa-google-plus"></span></a>
+            <a href="#"><span class="fa fa-linkedin"></span></a>
+            <a href="#"><span class="fa fa-youtube"></span></a>
+          </div>
+                
+        </div>
+      </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  
+  <!-- jQuery library -->
+  <script src="<?php echo base_url('assets/js/jquery.min.js');?>"></script>  
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="<?php echo base_url('assets/js/bootstrap.js');?>"></script>   
+  <!-- Slick slider -->
+  <script type="text/javascript" src="<?php echo base_url('assets/js/slick.js');?>"></script>
+  <!-- Counter -->
+  <script type="text/javascript" src="<?php echo base_url('assets/js/simple-animated-counter.js');?>"></script>
+  <!-- Gallery Lightbox -->
+  <script type="text/javascript" src="<?php echo base_url('assets/js/jquery.magnific-popup.min.js');?>"></script>
+  <!-- Date Picker -->
+  <script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap-datepicker.js');?>"></script> 
+  <!-- Ajax contact form  -->
+  <script type="text/javascript" src="<?php echo base_url('assets/js/app.js');?>"></script>
+ 
+  <!-- Custom js -->
+  <script src="<?php echo base_url('');?>assets/js/custom.js"></script> 
+
+  </body>
+</html>
